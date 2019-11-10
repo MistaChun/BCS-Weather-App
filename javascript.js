@@ -23,8 +23,7 @@ button.on("click", function(event){
         var divHumidity = $("div").text("humidity: " + response.main.humidity + "%");
         var divUVindex = $("div").text("UV index: " + response.wind.gust);
 
-        var weatherIcon = "http://openweathermap.org/img/w/" + response.weather[0].icon + ".png";
-        weatherinfo.append(input, "<img src=" + weatherIcon + ">");
+        weatherinfo.append(input);
         weatherinfo.append(divTemp);
         weatherinfo.append(divSpeed);
         weatherinfo.append(divHumidity);
@@ -39,8 +38,7 @@ button.on("click", function(event){
             var divHumidity = $("<div>").text("humidity: " + response.main.humidity + "%");
             var divUVindex = $("<div>").text("UV index: " + response.wind.gust);
 
-            var weathericon = "https://openweathermap.org/img/w/" + response.weather[0].icon + ".png";
-            weatherinfo.append(input, "<img src=" + weathericon + ">");
+            weatherinfo.append(input);
             weatherinfo.append(divTemp);
             weatherinfo.append(divSpeed);
             weatherinfo.append(divHumidity);
