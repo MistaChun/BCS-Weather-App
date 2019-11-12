@@ -1,0 +1,14 @@
+Extra Credit Report
+
+	Node is asynchronous and used to build back-end programs such as APIs (Application Programming Interface). 
+    Node is easy to use and good for prototyping and agile development. 
+    Programmers are able to build twice as fast with fewer people, use 33% less code, 40% fewer files, and faster response time. 
+    Since Node uses javascript, it is very easy to use if you know javascript. On top of it’s simple usage, it has the largest ecosystem of open-source libraries. 
+    Node runs javascript outside of the browser by containing an engine that runs the javascript code. Does not use document but rather a file system that reads, writes, appends, and etc. 
+    How node works is that when there is a request, a single takes all requests while waiting for the database. It should not be used for CPU-intensive apps since it goes and takes all requests. 
+    To use node, you go into your terminal and create a file. Once you create the file, you can add javascript in it. Then you can run it from the terminal my typing in it “node filename.js” and it will run the javascript code. 
+    Modularization is an important concept to divide the work in modules. You can create multiple modules and to call them, you export them to call their functions. To load a module, you use the “require()” function . 
+    This function find the relative path to the source of the module. In your modules, you can export a single function or an object. Node does not read the code directly but reads it by functions and modules. 
+    The path module is built in node and provides utilities for working file and directory paths. The OS module provides a number of operating system-related utility methods. You can find about your system memory using the OS module. 
+    File System module can be used to navigate through files and directories. Event modules have certain classes called “Event Emitter” which contains a class. These are used when something has happened from the code. 
+    There are many more modules that can be used with node.
